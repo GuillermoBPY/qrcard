@@ -69,3 +69,23 @@ body{
   line-height: 1.5rem;
   color: var(--Grayishblue);
 }
+.gitcode{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 1rem;
+  transition: letter-spacing 0.5s;
+}
+.gitcode:hover{
+  letter-spacing: 1.5px;
+}
+.gitcode img{
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
